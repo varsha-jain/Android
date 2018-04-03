@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context=".Help" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constantly refering a dictionary for acronyms is very tedious.Thus we have this app which is very effecient and allows users to search for acronyms and their fullforms quickly.The alphabetical arrangement allows easy access of acronyms.
+ On long press of an acronym user can either delete or edit an acronym.Once the user selects an acronym then the fullform of the acronym will  be displayed.This app also provides the feature of searching.So no need to go through the entire list.Thus this app will save a lot of time of the user.
+  User can also add a new acronym.This app is a must have."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="17dp" />
+
+</RelativeLayout>

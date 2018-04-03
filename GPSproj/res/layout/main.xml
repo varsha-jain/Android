@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+   android:id="@+id/m_text"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+   android:text="LONGITUDE\t\t:"
+    />
+    <TextView
+           android:id="@+id/my_text"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="LATITUDE\t\t:"
+           />
+           <TextView
+             android:id="@+id/myy_text"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="SPEED\t\t\t\t:"
+             />
+             <TextView
+                  android:id="@+id/mi_text"
+                  android:text="SATELLITES\t\t:"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  />
+    <Button
+       android:id="@+id/my_button"
+       android:text="submit"
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       />
+    
+      <com.google.android.maps.MapView
+       android:id="@+id/m_view"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"      
+       android:enabled="true"
+       android:clickable="true"
+       android:apiKey="02Q5E_f9kUdH6-SMHquXOQAsp_PR9RVqd9h-2Mw"
+       />
+    
+</LinearLayout>
